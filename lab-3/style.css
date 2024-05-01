@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+.d1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px 0px 16px 0px;
+  border-bottom: 3px solid #DF8E00;
+  
+  color: #414141;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.4s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(141, 140, 140, 0.6);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color:white;
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: white;
+  font-size: 20px;
+}
+
+.Now .temp {
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 30px 0px;
+  text-shadow: 2px 20px rgba(0, 0, 0, 0.6);
+}
+
+.Now .temprature span {
+  font-weight: 700;
+}
+
+.Now .weather {
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.Now .high-low {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
